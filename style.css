@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+#main #elem{
+    height: 20vh;
+    width: 100%;
+    border-bottom: 2px solid #fff;   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#elem h1{
+    font-size: 5vw;
+    vertical-align: middle;
+    padding: 1vw 3vw;
+    mix-blend-mode: difference;
+    z-index: 1;
+    position: relative;
+}
+#elem img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+
+}
